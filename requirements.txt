@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+requests
+beautifulsoup4
+sentence-transformers
+numpy
+rank-bm25
+openai
+python-dotenv
+google-genai
+groq
+pydantic
