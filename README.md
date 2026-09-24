@@ -223,14 +223,14 @@ It contains 15 questions:
 
 ```mermaid
 flowchart TD
-    A["❓ Benchmark Question"] --> B["🔎 Hybrid Retrieval<br/>Run Once"]
-    B --> C["📚 Assemble Context<br/>Once"]
+    A["Benchmark Question"] --> B["Hybrid Retrieval<br/>Run Once"]
+    B --> C["Assemble Context<br/>Once"]
 
-    C --> D["🟢 OpenAI"]
-    C --> E["🟠 Groq"]
-    C --> F["🔵 Gemini"]
+    C --> D["OpenAI"]
+    C --> E["Groq"]
+    C --> F["Gemini"]
 
-    D --> G["📊 Evaluation"]
+    D --> G["Evaluation"]
     E --> G
     F --> G
 
@@ -241,11 +241,11 @@ flowchart TD
     G --> L["Tokens / Cost"]
     G --> M["Failure Rate"]
 
-    classDef input fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000000;
-    classDef rag fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000000;
-    classDef provider fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000000;
-    classDef evaluation fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000000;
-    classDef metric fill:#f5f5f5,stroke:#616161,stroke-width:1px,color:#000000;
+    classDef input fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000;
+    classDef rag fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000;
+    classDef provider fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000;
+    classDef evaluation fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000;
+    classDef metric fill:#f5f5f5,stroke:#616161,stroke-width:1px,color:#000;
 
     class A input;
     class B,C rag;
