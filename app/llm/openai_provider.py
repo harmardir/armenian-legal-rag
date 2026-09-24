@@ -43,5 +43,6 @@ class OpenAIProvider(LLMProvider):
             provider="openai",
             prompt_tokens=response.usage.input_tokens,
             completion_tokens=response.usage.output_tokens,
+            ttft_ms=None,
             total_latency_ms=latency_ms,
         )

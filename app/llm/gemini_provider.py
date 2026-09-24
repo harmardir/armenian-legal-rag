@@ -53,5 +53,6 @@ class GeminiProvider(LLMProvider):
             provider="gemini",
             prompt_tokens=usage.prompt_token_count,
             completion_tokens=usage.candidates_token_count,
+            ttft_ms=None,
             total_latency_ms=latency_ms,
         )

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "hy_01",
+    "language": "hy",
+    "question": "Ի՞նչ է էլեկտրոնային հաղորդակցության ցանցը։",
+    "expected_answer": "Էլեկտրոնային հաղորդակցության ցանցը հաղորդման համակարգ է, իսկ համապատասխան դեպքերում նաև միացնող-անջատող կամ ուղղորդող սարքավորումներ և այլ ռեսուրսներ, որոնք թույլ են տալիս ազդակներ հաղորդել մալուխով, ռադիոյով, օպտիկական կամ այլ էլեկտրամագնիսական միջոցներով՝ անկախ հաղորդվող տեղեկատվության տեսակից։",
+    "expected_articles": [2],
+    "answerable": true,
+    "category": "answerable"
+  },
+  {
+    "id": "hy_02",
+    "language": "hy",
+    "question": "Կարո՞ղ է անձը հանրային էլեկտրոնային հաղորդակցության ցանց շահագործել առանց ցանցի լիցենզիայի։",
+    "expected_answer": "Ոչ։ Հայաստանի Հանրապետության տարածքում հանրային էլեկտրոնային հաղորդակցության ցանց տիրապետելու և շահագործելու համար պահանջվում է ցանցի լիցենզիա՝ օրենքով նախատեսված բացառություններով։",
+    "expected_articles": [15],
+    "answerable": true,
+    "category": "answerable"
+  },
+  {
+    "id": "hy_03",
+    "language": "hy",
+    "question": "Օպերատորը պարտավո՞ր է պահանջի դեպքում իր ցանցը փոխկապակցել այլ օպերատորի հանրային էլեկտրոնային հաղորդակցության ցանցի հետ։",
+    "expected_answer": "Այո։ Յուրաքանչյուր օպերատոր պարտավոր է պահանջի հիման վրա իր հանրային էլեկտրոնային հաղորդակցության ցանցը փոխկապակցել այլ օպերատորի հանրային էլեկտրոնային հաղորդակցության ցանցի հետ։",
+    "expected_articles": [33],
+    "answerable": true,
+    "category": "answerable"
+  },
+  {
+    "id": "hy_04",
+    "language": "hy",
+    "question": "Քանի՞ աշխատանքային օր առաջ պետք է բաժանորդին տեղեկացնել ծառայության սահմանափակման կամ կասեցման մասին։",
+    "expected_answer": "Ընդհանուր դեպքում բաժանորդին պետք է տեղեկացնել առնվազն հինգ աշխատանքային օր առաջ՝ նշելով սահմանափակման կամ կասեցման տևողությունը և պատճառները։ Օրենքով նախատեսված որոշ անհապաղ դեպքերում նման ծանուցում չի պահանջվում։",
+    "expected_articles": [45],
+    "answerable": true,
+    "category": "answerable"
+  },
+  {
+    "id": "hy_05",
+    "language": "hy",
+    "question": "Ի՞նչ իրավունքներ ունի վերջնական օգտագործողը իր ծառայությունների հաշիվների և էլեկտրոնային հաղորդակցության գաղտնիության վերաբերյալ։",
+    "expected_answer": "Վերջնական օգտագործողն իրավունք ունի ստանալ մատուցված ծառայությունների վճարների մասին մանրամասն տեղեկություններ պարունակող հաշիվ-ապրանքագրեր և ունի էլեկտրոնային հաղորդակցության գաղտնիության իրավունք։",
+    "expected_articles": [55],
+    "answerable": true,
+    "category": "answerable"
+  },
+
+  {
+    "id": "en_01",
+    "language": "en",
+    "question": "What is an electronic communications network?",
+    "expected_answer": "An electronic communications network is a transmission system and, where applicable, switching or routing equipment and other resources that enable signals to be transmitted by cable, radio, optical or other electromagnetic means, regardless of the type of information transmitted.",
+    "expected_articles": [2],
+    "answerable": true,
+    "category": "answerable"
+  },
+  {
+    "id": "en_02",
+    "language": "en",
+    "question": "Can a person provide electronic communications services without a network or service provider license?",
+    "expected_answer": "No. A person may not provide electronic communications services without a network license or a service provider license, subject to the provisions of the law.",
+    "expected_articles": [15],
+    "answerable": true,
+    "category": "answerable"
+  },
+  {
+    "id": "en_03",
+    "language": "en",
+    "question": "What information about customers must operators and service providers keep confidential?",
+    "expected_answer": "Operators and service providers must keep confidential information concerning the type, location, purpose, destination, quantity and technical conditions of the services used by their customers.",
+    "expected_articles": [49],
+    "answerable": true,
+    "category": "answerable"
+  },
+  {
+    "id": "en_04",
+    "language": "en",
+    "question": "Under what circumstances may customer information be disclosed?",
+    "expected_answer": "Customer information may be disclosed in cases and procedures provided by law in connection with investigation or prosecution of a criminal offence or a threat to national security, with the customer's written consent, or when disclosure is necessary to defend the operator or service provider in proceedings.",
+    "expected_articles": [49],
+    "answerable": true,
+    "category": "answerable"
+  },
+  {
+    "id": "en_05",
+    "language": "en",
+    "question": "What happens to emergency calling capability when a subscriber's communications service is restricted or suspended?",
+    "expected_answer": "When technically possible, the service provider must ensure that the affected subscriber retains the ability to call the police, emergency medical, fire and rescue services.",
+    "expected_articles": [45],
+    "answerable": true,
+    "category": "answerable"
+  },
+
+  {
+    "id": "adv_01",
+    "language": "en",
+    "question": "What tax rate applies to cryptocurrency profits in Armenia?",
+    "expected_answer": "The provided legal context does not contain sufficient information to answer this question.",
+    "expected_articles": [],
+    "answerable": false,
+    "category": "adversarial"
+  },
+  {
+    "id": "adv_02",
+    "language": "hy",
+    "question": "Ո՞րն է Հայաստանում ամուսնալուծության դիմում ներկայացնելու պետական տուրքի չափը։",
+    "expected_answer": "Տրամադրված իրավական համատեքստը բավարար տեղեկություն չի պարունակում այս հարցին պատասխանելու համար։",
+    "expected_articles": [],
+    "answerable": false,
+    "category": "adversarial"
+  },
+  {
+    "id": "adv_03",
+    "language": "en",
+    "question": "How many paid vacation days must an employee of a telecommunications company receive each year?",
+    "expected_answer": "The provided legal context does not contain sufficient information to answer this question.",
+    "expected_articles": [],
+    "answerable": false,
+    "category": "adversarial"
+  },
+
+  {
+    "id": "syn_01",
+    "language": "en",
+    "question": "If a subscriber's service is suspended, what protection remains for emergency calls, and what general right does an end user have regarding communications privacy?",
+    "expected_answer": "When technically possible, a subscriber whose service is restricted or suspended must retain the ability to call police, emergency medical, fire and rescue services. End users also have a right to the confidentiality of electronic communications.",
+    "expected_articles": [45, 55],
+    "answerable": true,
+    "category": "synthesis"
+  },
+  {
+    "id": "syn_02",
+    "language": "hy",
+    "question": "Եթե հաճախորդի ծառայությունների օգտագործման մասին տեղեկությունները գաղտնի են, ապա ի՞նչ հիմքերով կարող են դրանք բացահայտվել, և ի՞նչ ընդհանուր իրավունք ունի վերջնական օգտագործողը հաղորդակցության գաղտնիության վերաբերյալ։",
+    "expected_answer": "Հաճախորդի տեղեկությունները կարող են բացահայտվել օրենքով նախատեսված դեպքերում քրեական հանցագործության կամ ազգային անվտանգության սպառնալիքի հետ կապված գործընթացներում, հաճախորդի գրավոր համաձայնությամբ կամ օպերատորի կամ ծառայություն մատուցողի պաշտպանության համար անհրաժեշտ լինելու դեպքում։ Վերջնական օգտագործողն ունի էլեկտրոնային հաղորդակցության գաղտնիության իրավունք։",
+    "expected_articles": [49, 55],
+    "answerable": true,
+    "category": "synthesis"
+  }
+]

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armenian Legal RAG Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <header>
+        <h1>Armenian Legal RAG Assistant</h1>
+        <p>
+            Grounded Q&A over the Law of the Republic of Armenia
+            on Electronic Communications
+        </p>
+    </header>
+
+    <nav class="tabs">
+        <button id="qa-tab" class="tab active">
+            Q&A
+        </button>
+
+        <button id="benchmark-tab" class="tab">
+            Benchmark
+        </button>
+    </nav>
+
+    <!-- ==========================================
+         Q&A TAB
+         ========================================== -->
+
+    <section id="qa-section">
+
+        <h2>Ask a legal question</h2>
+
+        <p class="hint">
+            Questions may be asked in Armenian or English.
+        </p>
+
+        <textarea
+            id="question"
+            rows="5"
+            placeholder="Ask a question about electronic communications law..."
+        ></textarea>
+
+        <button id="ask-button" class="primary">
+            Ask
+        </button>
+
+        <div id="loading" class="hidden">
+            Retrieving legal evidence and generating answer...
+        </div>
+
+        <div id="error" class="error hidden"></div>
+
+        <div id="answer-card" class="card hidden">
+
+            <h3>Answer</h3>
+
+            <div id="answer"></div>
+
+            <div class="metadata">
+                <div>
+                    <strong>Citations:</strong>
+                    <span id="citations"></span>
+                </div>
+
+                <div>
+                    <strong>Retrieved articles:</strong>
+                    <span id="retrieved"></span>
+                </div>
+
+                <div>
+                    <strong>Model:</strong>
+                    <span id="model"></span>
+                </div>
+
+                <div>
+                    <strong>Latency:</strong>
+                    <span id="latency"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         BENCHMARK TAB
+         ========================================== -->
+
+    <section id="benchmark-section" class="hidden">
+
+        <h2>Model Benchmark</h2>
+
+        <p class="hint">
+            All models are evaluated using the same retrieval
+            pipeline and ground-truth dataset.
+        </p>
+
+        <div class="table-wrapper">
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Metric</th>
+                    <th>OpenAI</th>
+                    <th>Groq</th>
+                    <th>Gemini</th>
+                </tr>
+                </thead>
+
+                <tbody id="benchmark-body">
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <p class="benchmark-note">
+            Answer accuracy uses semantic similarity for answerable
+            questions and structured abstention for out-of-scope
+            questions. Hallucination rate is a deterministic proxy
+            based on unsupported citations and failure to abstain.
+        </p>
+
+    </section>
+
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
